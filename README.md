@@ -3,5 +3,5 @@ Primeiro trabalho da disciplina Organização da Informação da UFRJ.
 
 Grupo:
 
-Joaquim Ferreira Palmeira da Silva
+Joaquim Ferreira Palmeira da Silva <br>
 Bruno Ferraz de Almeida Couto
