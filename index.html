@@ -19,16 +19,161 @@
         <![endif]-->
 
         <!-- Include all necessary files below -->
-
+        <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar">
         <!-- Content -->
-        <div class="jumbotron">
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a href="index.html" class="navbar-brand">Pizzaria</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav navbar-nav">
+                            <li
+                                class="active"><a href="#jumbotron">Home</a></li>
+                            <li><a href="#tabelas">Preços</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="jumbotron" id='jumbotron'>
             <div class="container">
-                <h1>Hello, world!</h1>
-                <p>Content goes here...</p>
+                <div class="col-sm-8 pull-left">
+                <h1>Pizzaria</h1>
+                <p>Endereço: Rua Comandante Hamilton, n. 260</p>
+                <p>Telefone: 9999-8830</p>
+                </div>
+                <img class="col-sm-4 img-responsive pull-right hidden-xs" src="img/pizzaiolo.png" alt="Pizzaria">
             </div>
         </div>
+
+        <div id="tabelas">
+            <div class="container">
+                <h2>Tabelas de Preços</h2>
+                <div class="bebidas col-md-4">
+                    <div class="img">
+                        <img class="img-circle img-responsive" src="img/bouble.jpg" alt="Bebidas">
+                        <div class="overlay">
+                            <h3>Bebidas</h3>
+                        </div>
+                    </div>
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Bebida</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Água</td>
+                                <td>R$3,50</td>
+                            </tr>
+                            <tr>
+                                <td>Refrigerante</td>
+                                <td>R$5,50</td>
+                            </tr>
+                            <tr>
+                                <td>Mate</td>
+                                <td>R$4,50</td>
+                            </tr>
+                            <tr>
+                                <td>Cerveja</td>
+                                <td>R$7,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pizzas col-md-4">
+                    <div class="img">
+                        <img class="img-circle img-responsive" src="img/pizza_pepperoni.jpg" alt="Pizzas">
+                        <div class="overlay">
+                            <h3>Pizzas</h3>
+                        </div>
+                    </div>
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Pizza</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mussarela</td>
+                                <td>R$20,00</td>
+                            </tr>
+                            <tr>
+                                <td>Calabresa</td>
+                                <td>R$24,00</td>
+                            </tr>
+                            <tr>
+                                <td>Frango com catupiry</td>
+                                <td>R$30,00</td>
+                            </tr>
+                            <tr>
+                                <td>Pepperoni</td>
+                                <td>R$28,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="sobremesas col-md-4">
+                    <div class="img">
+                        <img class="img-circle img-responsive" src="img/pudim-leite-condensado-21-610x300.jpg" alt="Sobremesas">
+                        <div class="overlay">
+                            <h3>Sobremesas</h3>
+                        </div>
+                    </div>
+
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Sobremesa</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pudim de Leite Condensado</td>
+                                <td>R$8,00</td>
+                            </tr>
+                            <tr>
+                                <td>Pizza de Banana com Canela</td>
+                                <td>R$28,00</td>
+                            </tr>
+                            <tr>
+                                <td>Pizza de Chocolate</td>
+                                <td>R$25,00</td>
+                            </tr>
+                            <tr>
+                                <td>Pizza de Romeu e Julieta</td>
+                                <td>R$24,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                Feito por Joaquim, Bruno e Pedro. Todos os direitos reservados.
+            </p>
+        </footer>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="lib/jquery/jquery.min.js"></script>
