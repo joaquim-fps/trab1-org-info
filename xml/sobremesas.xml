@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tabelas.xsl"?>
+<cardapio>
+	<sobremesa>
+		<nome>Pudim de Leite Condensado</nome>
+		<preco>R$8,00</preco>
+	</sobremesa>
+	<sobremesa>
+		<nome>Pizza de Banana com Canela</nome>
+		<preco>R$28,00</preco>
+	</sobremesa>
+	<sobremesa>
+		<nome>Pizza de Chocolate</nome>
+		<preco>R$25,00</preco>
+	</sobremesa>
+	<sobremesa>
+		<nome>Pizza Romeu e Julieta</nome>
+		<preco>R$24,00</preco>
+	</sobremesa>
+</cardapio>

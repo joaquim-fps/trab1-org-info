@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tabelas.xsl"?>
+<cardapio>
+	<pizza>
+		<nome>Mussarela</nome>
+		<preco>R$20,00</preco>
+	</pizza>
+	<pizza>
+		<nome>Calabresa</nome>
+		<preco>R$24,00</preco>
+	</pizza>
+	<pizza>
+		<nome>Frango com catupiry</nome>
+		<preco>R$30,00</preco>
+	</pizza>
+	<pizza>
+		<nome>Pepperoni</nome>
+		<preco>R$28,00</preco>
+	</pizza>
+</cardapio>

@@ -40,13 +40,18 @@
 
                     <!--Navbar desktop-->
                     <div class="collapse navbar-collapse" id="navbar">
-                        <ul class="nav navbar-nav">
-                            <li
-                                class="active"><a href="#jumbotron">Home</a></li>
+                        <!-- Esquerda -->
+                        <ul class="nav navbar-nav navbar-left">
+                            <li class="active"><a href="#jumbotron">Home</a></li>
                             <li><a href="#tabelas">Preços</a></li>
                         </ul>
+
+                        <!-- Direita -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="xml-hub.html">Tabelas em XML</a></li>
+                        </ul>
                     </div>
-                </div>
+                </div><!-- /.container -->
             </nav>
         </header>
 
@@ -66,7 +71,9 @@
         <!--Tabelas de preços-->
         <div id="tabelas">
             <div class="container">
-                <h2>Tabelas de Preços</h2>
+                <div class="page-header">
+                    <h2>Tabelas de Preços</h2>
+                </div>
 
                 <!--Bebidas-->
                 <div class="bebidas col-md-4">
@@ -104,7 +111,7 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                </div><!-- /.bebidas -->
 
                 <!--Pizzas-->
                 <div class="pizzas col-md-4">
@@ -143,7 +150,7 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                </div><!-- /.pizzas -->
 
                 <!--Sobremesas-->
                 <div class="sobremesas col-md-4">
@@ -177,14 +184,14 @@
                                 <td>R$25,00</td>
                             </tr>
                             <tr>
-                                <td>Pizza de Romeu e Julieta</td>
+                                <td>Pizza Romeu e Julieta</td>
                                 <td>R$24,00</td>
                             </tr>
                         </tbody>
                     </table>
-                </div>
-            </div>
-        </div>
+                </div><!-- /.sobremesas -->
+            </div><!-- /.container -->
+        </div><!-- /#tabelas -->
 
         <footer>
             <p>
